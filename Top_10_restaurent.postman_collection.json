@@ -1,0 +1,73 @@
+{
+  "info": {
+    "_postman_id": "6661c302-2ab5-4e60-b676-6b5326c599f4",
+    "name": "Top_10_restaurent",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53979195",
+    "_collection_link": "https://go.postman.co/collection/53979195-6661c302-2ab5-4e60-b676-6b5326c599f4?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "search",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "search",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"city\":\"ahmedabad\",\r\n    \"dish_name\":\"dosa\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:8000/restaurants",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8000",
+              "path": [
+                "restaurants"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "date",
+              "value": "Tue, 26 May 2026 08:34:15 GMT"
+            },
+            {
+              "key": "server",
+              "value": "uvicorn"
+            },
+            {
+              "key": "content-length",
+              "value": "3379"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"city\": \"ahmedabad\",\n    \"dish_name\": \"dosa\",\n    \"zomato_restaurants\": [\n        {\n            \"res_id\": 110805,\n            \"res_name\": \"Anand Bhajipav & Pulav Ankurwala\",\n            \"res_rating\": \"3.8\",\n            \"address\": \"6 & 7, Adishwar Complex, Ankur Road, Naranpura, Ahmedabad\"\n        },\n        {\n            \"res_id\": 18603039,\n            \"res_name\": \"Mahalaxmi Bhaji Pav-Manekchowk Wala\",\n            \"res_rating\": \"4.1\",\n            \"address\": \"9, Ground Floor, Dev Complex, Near Parimal Garden, Ellis Bridge, Ahmedabad\"\n        },\n        {\n            \"res_id\": 113773,\n            \"res_name\": \"Udupi Shree Darshini Restaurant\",\n            \"res_rating\": \"4.4\",\n            \"address\": \"Ellisbridge Shopping Center, Ellis Bridge, Ahmedabad\"\n        },\n        {\n            \"res_id\": 19191166,\n            \"res_name\": \"Radhika's Authentic South Indian Food\",\n            \"res_rating\": \"4.4\",\n            \"address\": \"3/4/5, Ground Floor, Gold Leaf Complex, Near Maradia Plaza, Navrangpura, Ahmedabad\"\n        },\n        {\n            \"res_id\": 18462696,\n            \"res_name\": \"Dakshinayan\",\n            \"res_rating\": \"4.2\",\n            \"address\": \"104, ABC 2, St. Xavier's College Corner, Navrangpura, Ahmedabad\"\n        },\n        {\n            \"res_id\": 21009665,\n            \"res_name\": \"Ginny's Kitchen\",\n            \"res_rating\": \"3.5\",\n            \"address\": \"Shop 7, Kedar Society, Shahibagh, Ahmedabad\"\n        },\n        {\n            \"res_id\": 112140,\n            \"res_name\": \"Chennai Express\",\n            \"res_rating\": \"3.8\",\n            \"address\": \"7, Twinkle Complex, 100 Feet Road, Near Dhananjay Tower, Satellite, Ahmedabad\"\n        },\n        {\n            \"res_id\": 111775,\n            \"res_name\": \"Roothraj Dhosa Centre\",\n            \"res_rating\": \"3.7\",\n            \"address\": \"GF/2, Princes Lane, Swastik Society, Opposite M Square, Navrangpura, Ahmedabad\"\n        },\n        {\n            \"res_id\": 21304818,\n            \"res_name\": \"UDUPI OM\",\n            \"res_rating\": \"4.1\",\n            \"address\": \"Ground Floor, Laxmi One Complex, Opposite Chandranagar BRTS Bus Stand, Paldi, Ahmedabad\"\n        }\n    ],\n    \"swiggy_restaurants\": [\n        {\n            \"res_id\": \"738688\",\n            \"res_name\": \"City Corner\",\n            \"res_rating\": \"4.3\",\n            \"address\": \"Nr Arjun Complex, Naroda, Talawadi, Naroda Degam Road, Naroda, Ahmedabad - 382330, Ahmedabad Municipal Corporation, Ahmedabad Municipal Corporation, Gujrat-382330\\t\"\n        },\n        {\n            \"res_id\": \"957876\",\n            \"res_name\": \"Gwalia Sweets & Fast Food\",\n            \"res_rating\": \"4.5\",\n            \"address\": \"Shop No : 142/B , Floor : GF , SINDHI COLONY, B/S KRUSHNA TRAVEL , \"\n        },\n        {\n            \"res_id\": \"808645\",\n            \"res_name\": \"Oshwal\",\n            \"res_rating\": \"4.7\",\n            \"address\": \"GF/14,AJANTA COMMERCIAL CENTRE,NR. INCOME TAX OFFICE,ASHRAM ROAD, AHMEDABAD.380014\"\n        },\n        {\n            \"res_id\": \"1022330\",\n            \"res_name\": \"Jay Bhavani Vadapav\",\n            \"res_rating\": \"4.2\",\n            \"address\": \"BLOCK NO - A/135, PAIKI SINDHI COLONY, SARDARNAGAR ,Sardar Nagar(North Zone),Ahmedabad Municipal Corporation,Ahmedabad,Gujarat-382475\\t\"\n        },\n        {\n            \"res_id\": \"1095777\",\n            \"res_name\": \"Naivedyam Flavours of Bengaluru\",\n            \"res_rating\": \"4.4\",\n            \"address\": \"Shop No 4, Ground Floor, Narnarayan Complex, Swastik Cross Road, Chimanlal Girdharlal Road, Navrangpura, Ahmedabad, Gujarat\"\n        },\n        {\n            \"res_id\": \"911523\",\n            \"res_name\": \"Shivam Snacks\",\n            \"res_rating\": \"4.2\",\n            \"address\": \"Shop No : 6 , Floor : 0 , ICHCHHABA NAGAR CO OP SOCIETY , \"\n        },\n        {\n            \"res_id\": \"875313\",\n            \"res_name\": \"Gwalia Vanakkam\",\n            \"res_rating\": \"4.5\",\n            \"address\": \"114/115 , Floor : GF , ANIKEDHY CAPITAL , Near Tapovan Cir,Nigam nagar,Chandkheda,Ahmedabad, Gujrat,382424\"\n        },\n        {\n            \"res_id\": \"1302702\",\n            \"res_name\": \"Meera Dosa Center Nx fast Food Cafe\",\n            \"res_rating\": \"4.1\",\n            \"address\": \"SHOP NO 12, GROUND FLOOR, VENUS AVAN BUSINESS CENTER, BHAT CIRCLE, BHAT, GANDHINAGAR ,Bhat ,Gandhinagar Municipal Corporation,Gandhinagar,Gujarat-382428\"\n        },\n        {\n            \"res_id\": \"545187\",\n            \"res_name\": \"Balaji Fancy Dosa\",\n            \"res_rating\": \"4.3\",\n            \"address\": \"shop no 3 mitru milan. soc near kameshwar mahadev mandir  ankur road naranpura\"\n        },\n        {\n            \"res_id\": \"874541\",\n            \"res_name\": \"Honest\",\n            \"res_rating\": \"4.4\",\n            \"address\": \"Shop No : Block B , Floor : Ground Flo , Sun West Bank, Ashram Road, Navrangpura, , \"\n        }\n    ]\n}"
+        }
+      ]
+    }
+  ]
+}
